@@ -14,7 +14,6 @@ jobs:
           submodules: true
       - run: cmake .
       - run: cmake --build .
-      - run: ./main
 
       - name: Create Release
         id: create_release
